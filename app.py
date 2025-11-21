@@ -26,7 +26,7 @@ def run_flask():
     app.run(host='0.0.0.0', port=port)
 
 # Discord Bot Setup
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("d771ed8277954394d5c25599fb434dfcc333102ad5be6263a6524cd3bfccab77")
 if not TOKEN:
     raise ValueError("Missing TOKEN in environment")
 
